@@ -1,0 +1,14 @@
+{
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/api/war": [
+		"src/routes/api/war/+server.js"
+	],
+	"/api/war/comments": [
+		"src/routes/api/war/comments/+server.js"
+	],
+	"/comments": [],
+	"/contact": [],
+	"/video": []
+}

@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cdcaca; /* 浅灰色背景 */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #343a40; /* 深灰色背景 */
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  width: 100px; /* 根据实际 logo 图片尺寸调整 */
+  height: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav {
+  background-color: #343a40; /* 深灰色背景 */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* 导航菜单居中对齐 */
+}
+
+nav ul li {
+  margin: 0 10px; /* 调整菜单项之间的间距 */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ced4da;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+  margin: 5px auto; /* 设置自动左右居中，并留出一定的外边距 */
+  max-width: 1200px; /* 设置最大宽度，根据需要调整 */
+  background-color: #e1e1e1; /* 白色背景 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果 */
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40; /* 深灰色背景 */
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
